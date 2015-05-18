@@ -1,18 +1,33 @@
-= form_for(@character) do |f|
-  - if @character.errors.any?
-    #error_explanation
-      %h2
-        = pluralize(@character.errors.count, "error")
-        prohibited this character from being saved:
-      %ul
-        - @character.errors.full_messages.each do |message|
-          %li= message
-  = f.label :name, class: 'control-label'
-  = f.text_field :name, autofocus: true, class: 'form-control'
-  = f.label :description, class: 'control-label'
-  = f.text_area :description, class: 'form-control'
-  = f.label :photo, class: 'control-label'
-  = f.file_field :photo
-
-  .actions
-    = f.submit
+.well{ style: 'text-align: left; ' }
+  = form_for(@character) do |f|
+    - if @character.errors.any?
+      #error_explanation
+        %h2
+          = pluralize(@character.errors.count, "error")
+          prohibited this character from being saved:
+        %ul
+          - @character.errors.full_messages.each do |message|
+            %li= message
+    .form-group
+      = f.label :name, class: 'control-label'
+      = f.text_field :name, autofocus: true, class: 'form-control'
+    .form-group
+      = f.label :fact1, class: 'control-label'
+      = f.text_area :fact1, class: 'form-control'
+    .form-group
+      = f.label :fact1_description, class: 'control-label'
+      = f.text_area :fact1_description, class: 'form-control'
+    .form-group
+      = f.label :fact2, class: 'control-label'
+      = f.text_area :fact2, class: 'form-control'
+    .form-group
+      = f.label :fact2_description, class: 'control-label'
+      = f.text_area :fact2_description, class: 'form-control'
+    .form-group
+      = f.label :fact3, class: 'control-label'
+      = f.text_area :fact3, class: 'form-control'
+    .form-group
+      = f.label :fact3_description, class: 'control-label'
+      = f.text_area :fact3_description, class: 'form-control'
+    .form-group
+      = f.submit

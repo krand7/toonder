@@ -27,7 +27,7 @@ class CharactersControllerTest < ActionController::TestCase
   def test_create
     login(@user)
     assert_difference('Character.count') do
-      post :create, character: { name: 'New character', description: 'I am new', user_id: '1' }
+      post :create, character: { name: 'New character', slug: 'new-character', user_id: '1' }
     end
 
     assert_redirected_to dashboard_path

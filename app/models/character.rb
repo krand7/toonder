@@ -30,4 +30,10 @@ class Character < ActiveRecord::Base
 
   end
 
+  # Getters
+
+  def positive_rating
+    (self.votes.where(rating: 1).count.to_f / self.votes.count.to_f)*100 rescue 0
+  end
+
 end

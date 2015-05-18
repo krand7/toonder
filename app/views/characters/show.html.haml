@@ -1,0 +1,25 @@
+%p#notice
+  = notice
+
+.row
+  .col-md-4.col-md-offset-4.col-sm-6.col-sm-offset-3.well
+    = image_tag @character.photo, class: 'img-responsive', style: 'max-width: 150px; margin: auto;'
+    %h3= @character.name
+    %p.f300
+      %span.f500= "#{@character.fact1.titlecase}: "
+      %br
+      = @character.fact1_description
+    %p.f300
+      %span.f500= "#{@character.fact2.titlecase}: "
+      %br
+      = @character.fact2_description
+    %p.f300
+      %span.f500= "#{@character.fact3.titlecase}: "
+      %br
+      = @character.fact3_description
+    %br
+
+.well.well-sm
+  = link_to 'Edit', edit_character_path(@character)
+  |
+  = link_to 'Back', characters_path

@@ -7,9 +7,12 @@
 #
 one:
   name: Reptar
-  description: ROAR!
+  slug: reptar
+  fact1: food
+  fact1_description: pterodactyls
+  fact2: drink
+  fact2_description: kool-aid
+  fact3: color
+  fact3_description: GREEN
   user_id: 1
 
-#
-two: {}
-#  column: value

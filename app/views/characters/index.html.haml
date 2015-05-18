@@ -1,15 +1,24 @@
-%p#notice= notice
-%h1 Listing Characters
+.well
+  %p#notice= notice
+  %h1.dinosaur.toonder-red Listing Characters
+  = link_to 'New Character', new_character_path, class: 'btn btn-primary btn-sm'
 
-.row
-  - @characters.each do |character|
-    .col-sm-4
-      = image_tag character.photo_url.to_s, class: 'img-responsive', style: 'max-width: 150px; margin: auto'
-      %h2= character.name
-      %p.lead= character.description
-      = link_to 'Show', character, class: 'btn btn-primary'
-      = link_to 'Edit', edit_character_path(character), class: 'btn btn-warning'
-      = link_to 'Destroy', character, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger'
-
-%br/
-= link_to 'New Character', new_character_path
+%div{style: 'background-color: white; margin: 40px;'}
+  %table.table.table-striped
+    %thead.toonder-red-bcg.white
+      %tr
+        %th
+        %th.centered Name
+        %th.centered Number of Votes
+        %th.centered Positive Rating
+        %th
+    %tbody
+      - @characters.each do |character|
+        %tr
+          %td= image_tag character.photo, class: 'img-responsive', style: 'max-width: 50px; margin: auto'
+          %td= character.name
+          %td= character.votes.count
+          %td= character.positive_rating.nan? ? "--" : "#{character.positive_rating}%"
+          %td
+            = link_to 'Show', character, class: 'btn btn-primary btn-sm'
+            = link_to 'Edit', edit_character_path(character), class: 'btn btn-warning btn-sm'

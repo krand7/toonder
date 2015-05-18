@@ -1,7 +1,9 @@
 .well.well-sm.toonder-red-bcg.white
-  %h1 New Character
+  %h1 Editing Character
 
 = render 'form'
 
 .well.well-sm
+  = link_to 'Show', @character
+  |
   = link_to 'Back', characters_path
