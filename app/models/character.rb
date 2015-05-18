@@ -5,7 +5,7 @@ class Character < ActiveRecord::Base
   include Deletable
 
   # Model Validation
-  validates_presence_of :name, :user_id, :fact1, :fact1_description, :fact2, :fact2_description, :fact3, :fact3_description
+  validates_presence_of :slug
 
   # Model Relationships
   belongs_to :user
@@ -18,11 +18,11 @@ class Character < ActiveRecord::Base
 
     data_file = YAML.load_file(Rails.root.join(*(['lib', 'characters', 'characters.yml'])))
     data_file['characters'].each do |character_attributes|
-      char = create(character_attributes)
-      if char.save
+      char = Character.where(slug: character_attributes["slug"]).first_or_create
+      if char.update(character_attributes)
         loaded_successfully << character_attributes
       else
-        puts "Error creating: #{character_attributes}"
+        puts "Error creating or updating: #{character_attributes}"
       end
     end
 

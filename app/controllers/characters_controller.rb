@@ -71,7 +71,7 @@ class CharactersController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def character_params
-      params.require(:character).permit(:name, :fact1, :fact1_description, :fact2, :fact2_description, :fact3, :fact3_description, :photo)
+      params.require(:character).permit(:name, :slug, :fact1, :fact1_description, :fact2, :fact2_description, :fact3, :fact3_description, :photo)
     end
 
     def verify_is_admin

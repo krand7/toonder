@@ -1,6 +1,7 @@
 ---
 characters:
   - name: Bugs Bunny
+    slug: bugs-bunny
     user_id: 1
     photo: bugs-bunny1.jpg
     fact1: Most frequently visited locale
@@ -10,6 +11,7 @@ characters:
     fact3: Best pick-up line
     fact3_description: "Ehh, what's up Doc?"
   - name: Daffy Duck
+    slug: daffy-duck
     user_id: 1
     photo: Daffy_duck-1.jpg
     fact1: Least favorite reality show
@@ -19,6 +21,7 @@ characters:
     fact3: Doesn't that lifestyle have consequences?
     fact3_description: "Consequences, Schmonsequences, as long as I'm rich."
   - name: Pepe Le Pew
+    slug: pepe
     user_id: 1
     photo: PepeLePew.jpg
     fact1: Best pick-up line
@@ -28,6 +31,7 @@ characters:
     fact3: Definition of perfect love
     fact3_description: It is love at sight first, no? You are ze corned beef  to me and I am ze cabbage to you.  Wait! Ze corned beef does not run away from ze cabbage!
   - name: Scooby Doo
+    slug: scooby-doo
     user_id: 1
     photo: scooby-doo1.jpg
     fact1: Celebrity crush
@@ -37,6 +41,7 @@ characters:
     fact3: Best pick-up line
     fact3_description: Once you Scooby Snack, you never go back.
   - name: Shaggy Rogers
+    slug: shaggy
     user_id: 1
     photo: Shaggy.gif
     fact1: Favortie radio DJ
@@ -46,6 +51,7 @@ characters:
     fact3: Ideal woman
     fact3_description: Zoinks, like I just want to meet a chill Mary Jane, man.
   - name: Velma Dinkley
+    slug: velma
     user_id: 1
     photo: velma1.jpg
     fact1: Pet peeve
@@ -55,6 +61,7 @@ characters:
     fact3: Biggest turn-on
     fact3_description: Mesh-shirted thespians
   - name: Optimus Prime
+    slug: optimus-prime
     user_id: 1
     photo: optimus-prime1.jpg
     fact1: Favorite books
@@ -64,6 +71,7 @@ characters:
     fact3: Best part of being an Autobot
     fact3_description: The adrenaline. There’s a thin line between being a hero and being a memory.
   - name: Megatron
+    slug: megatron
     user_id: 1
     photo: Megatron1.jpg
     fact1: Favorite books
@@ -73,6 +81,7 @@ characters:
     fact3: Dateable because
     fact3_description: I'm more than meets the eye
   - name: Bumblebee
+    slug: bumblebee
     user_id: 1
     photo: BumbleBee1.jpg
     fact1: Turn-ons
@@ -82,6 +91,7 @@ characters:
     fact3: Best pick-up line
     fact3_description: If you were a transformer, you’d be a Hot-o-bot and you’d be called Optimus Fine!
   - name: Michaelangelo
+    slug: michaelangelo
     user_id: 1
     photo: Michaelangelo1.gif
     fact1: Hobbies
@@ -91,6 +101,7 @@ characters:
     fact3: Life philosophy
     fact3_description: I don’t know the meaning of the word defeat. I never bothered to look it up in a dictionary.
   - name: Master Shredder
+    slug: shredder
     user_id: 1
     photo: Shredder1.png
     fact1: Pet peeves
@@ -100,6 +111,7 @@ characters:
     fact3: More of a good guy or bad boy?
     fact3_description: Ah, it feels so good to be so bad.
   - name: Master Splinter
+    slug: splinter
     user_id: 1
     photo: Splinter1.png
     fact1: Most impressive skill
@@ -109,6 +121,7 @@ characters:
     fact3: Why you should choose me
     fact3_description: Age has its advantages.
   - name: Pam Poovey
+    slug: pam-poovey
     user_id: 1
     photo: Pam1.jpg
     fact1: Favorite food
@@ -118,6 +131,7 @@ characters:
     fact3: Self summary
     fact3_description: I’m a desirable, full-bodied woman… and I have so much love to give.
   - name: Mallory Archer
+    slug: mallory-archer
     user_id: 1
     photo: Mallory1.jpg
     fact1: Perfect man
@@ -127,6 +141,7 @@ characters:
     fact3: Toughest decision ever made
     fact3_description: The classic Irishman's dilemma...Do I eat the potato now, or do I let it ferment so I can drink it later?
   - name: Eric Cartman
+    slug: cartman
     user_id: 1
     photo: Eric_Cartman1.jpg
     fact1: Favorite food
@@ -136,6 +151,7 @@ characters:
     fact3: Dominant or submissive?
     fact3_description: You will Respect My Authorit-ay!
   - name: Leopold "Butters" Stotch
+    slug: butters
     user_id: 1
     photo: ButtersStotch1.png
     fact1: Pet peeve
@@ -145,6 +161,7 @@ characters:
     fact3: Self summary
     fact3_description: I’m Butters. I’m 8 years old. I’m blood-type O. And I’m bi-curious.
   - name: Chef
+    slug: chef
     user_id: 1
     photo: ChefSouthPark1.png
     fact1: Favorite transportation
@@ -154,6 +171,7 @@ characters:
     fact3: What to bring to a dinner party
     fact3_description: Everyone gets a pick-me-up from my Chocolate Salty Balls.
   - name: Tommy Pickles
+    slug: tommy-pickles
     user_id: 1
     photo: tommypickles1.png
     fact1: Closest to
@@ -163,6 +181,7 @@ characters:
     fact3: Words to live by
     fact3_description: A baby’s gotta do, what a baby’s gotta do.
   - name: Chuckie Finster
+    slug: chuckie
     user_id: 1
     photo: Chuckie1.jpg
     fact1: Biggest rival
@@ -172,6 +191,7 @@ characters:
     fact3: Biggest fears
     fact3_description: Adventures, clowns, the dark, and the guy on the oatmeal box with the scary hat.
   - name: Angelica Pickles
+    slug: angelica
     user_id: 1
     photo: Angelica1.jpg
     fact1: Best friend
@@ -181,6 +201,7 @@ characters:
     fact3: Have you ever cheated in a relationship?
     fact3_description: Well, a cookie just tastes better when it’s someone else’s...
   - name: SpongeBob SquarePants
+    slug: spongebob
     user_id: 1
     photo: SPONGEBOB1.jpg
     fact1: Favorite pet
@@ -190,6 +211,7 @@ characters:
     fact3: Best pick-up line
     fact3_description: How would you like a Sponge bath in a Pineapple Under Me?
   - name: Patrick Starfish
+    slug: patrick
     user_id: 1
     photo: Patrick_Star1.png
     fact1: Favorite food
@@ -199,6 +221,7 @@ characters:
     fact3: Your genius is showing
     fact3_description: Don’t genius live in lamps?
   - name: Squidward Tentacles
+    slug: squidward
     user_id: 1
     photo: Squidward1.gif
     fact1: Favorite movie
@@ -208,6 +231,7 @@ characters:
     fact3: Best pick-up line
     fact3_description: Are you an Octopus? Because you octopi my thoughts.
   - name: Sterling Archer
+    slug: archer
     user_id: 1
     photo: archer1.jpg
     fact1: Song that best describes your life
