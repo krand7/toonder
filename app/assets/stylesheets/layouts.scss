@@ -1,0 +1,23 @@
+html, body {
+  background-image: asset-url("heart-background.jpg");
+  background-repeat: repeat;
+  background-position: center;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.padded-bottom {
+  padding-bottom: 20px;
+}
+
+#fixed-dinosaur {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 300px;
+  height: 300px;
+  z-index:0;
+}

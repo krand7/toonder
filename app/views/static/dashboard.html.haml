@@ -1,0 +1,65 @@
+- if false
+  %h3
+    It looks like you haven't submitted all of your characters yet. You must do this before you can continue!
+  .row
+    .col-sm-4.col-sm-offset-4.well
+      - @character = Character.where(user_id: current_user.id).new
+      = render partial: 'characters/form'
+  - if current_user.characters.current.present?
+    %p.lead
+      You've already created
+      = current_user.characters.current.count
+      characters.
+    .row
+      - current_user.characters.current.each do |character|
+        .col-sm-3
+          .well
+            = image_tag character.photo_url, class: 'img-responsive', style: 'max-width: 150px; margin: auto;'
+            %h4= character.name
+            %p.lead= character.description
+
+- else
+  - characters = Character.current
+  .well
+    %h3.toonder-red
+      Which cartoon characters would you like to meet up with? ;)
+    %p.lead
+      The rules are simple: you have to swipe left or right for each of the characters. Do it with any criteria you may have when it comes to your personal life. We're not here to judge.
+  %br
+  %br
+  - if current_user.voted_on_all?
+    .row
+      .col-sm-4.col-sm-offset-4.well
+        %p.lead Looks like you voted on everyone...but come back later to check for new characters!
+  - else
+    - Character.current.each do |character|
+      - unless character.votes.pluck(:user_id).include? current_user.id
+        .row
+          .col-md-4.col-md-offset-4.col-sm-6.col-sm-offset-3.well
+            = image_tag character.photo, class: 'img-responsive', style: 'max-width: 150px; margin: auto;'
+            %h3= character.name
+            %p.f300
+              %span.f500= "#{character.fact1.titlecase}: "
+              %br
+              = character.fact1_description
+            %p.f300
+              %span.f500= "#{character.fact2.titlecase}: "
+              %br
+              = character.fact2_description
+            %p.f300
+              %span.f500= "#{character.fact3.titlecase}: "
+              %br
+              = character.fact3_description
+            %br
+            = link_to negative_vote_path(character: character.id), method: :post, class: 'btn btn-danger' do
+              Not
+              &nbsp;
+              %span.glyphicon.glyphicon-thumbs-down
+            = link_to positive_vote_path(character: character.id), method: :post, class: 'btn btn-success' do
+              Hot
+              &nbsp;
+              %span.glyphicon.glyphicon-thumbs-up
+        - break # limit to one
+
+#fixed-dinosaur
+  = image_tag 'dinosaurs-love.jpg', class: 'img-responsive hidden-sm hidden-xs'

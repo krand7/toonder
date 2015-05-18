@@ -1,0 +1,26 @@
+/* FONTS */
+@font-face {
+  font-family: 'Dinosaur';
+  src: asset-url('Dinosaur.ttf') format("opentype");
+}
+
+.dinosaur {
+  font-family: Dinosaur, arial, sans-serif;
+}
+
+
+.white { color: #fff; }
+.black { color: #000; }
+.toonder-red { color: #DB4C2C !important; }
+.toonder-red-bcg { background-color: #DB4C2C !important; }
+
+.f300 { font-weight: 300 }
+.f500 { font-weight: 500 }
+
+p {
+  font-size: 16px;
+}
+
+input {
+  font-family: Arial, sans-serif !important;
+}

@@ -1,0 +1,15 @@
+%p#notice= notice
+%h1 Listing Characters
+
+.row
+  - @characters.each do |character|
+    .col-sm-4
+      = image_tag character.photo_url.to_s, class: 'img-responsive', style: 'max-width: 150px; margin: auto'
+      %h2= character.name
+      %p.lead= character.description
+      = link_to 'Show', character, class: 'btn btn-primary'
+      = link_to 'Edit', edit_character_path(character), class: 'btn btn-warning'
+      = link_to 'Destroy', character, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger'
+
+%br/
+= link_to 'New Character', new_character_path

@@ -1,0 +1,46 @@
+# Add configuration values here, as shown below.
+#
+# pusher_app_id: "2954"
+# pusher_key: 7381a978f7dd7f9a1117
+# pusher_secret: abdc3b896a0ffb85d373
+# stripe_api_key: sk_test_2J0l093xOyW72XUYJHE4Dv2r
+# stripe_publishable_key: pk_test_ro9jV5SNwGb1yYlQfzG17LHK
+#
+# production:
+#   stripe_api_key: sk_live_EeHnL644i6zo4Iyq4v1KdV9H
+#   stripe_publishable_key: pk_live_9lcthxpSIHbGwmdO941O1XVU
+
+## Other Settings
+website_url:                  "www.cartoonswiper.com"
+website_name:                 "CartoonSwiper"
+
+smtp_address:                 "localhost"
+smtp_port:                    "25"
+smtp_authentication:          "plain"
+smtp_email:                   ""
+smtp_user_name:               "username"
+smtp_password:                "password"
+
+uservoice_id:                 ""
+google_analytics_id:          ""
+google_analytics_report_id:   ""
+# database_url:                 ""
+
+# Facebook Integration
+fb_app_id:                    ""
+fb_app_secret:                ""
+
+# External Accounts
+oodt_enabled:                 "false"
+validic_enabled:              "false"
+
+# Prevent API and other requests in testing environment
+test:
+  uservoice_id:                 ~
+  google_analytics_id:          ~
+  google_analytics_report_id:   ~
+  fb_app_id:                    ~
+  fb_app_secret:                ~
+
+devise_pepper:                "1e257ff094ca65865b2f9b04be178c146d7907949b1dba6a22f87e6b7cb95c24462b0bcca11d59d4aa70248b28a9ea422eeab29271b161c26608d0bce9b63f4d"
+website_secret:               "6aaf9eb453e62557850514f3ad4e2d0115433e4260078ae60dca4129ff09cadb6109f04989811364dbfa5abadb8ff2d4afd4dbc53e3cf63b3eea6ff4198f2917"

@@ -1,0 +1,7 @@
+/* This file controls whether base styles or theme styles are used, based on config*/
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+@import "static";
+@import "fonts";
+@import "layouts";
