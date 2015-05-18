@@ -94,7 +94,7 @@ characters:
     user_id: 1
     photo: Shredder1.png
     fact1: Pet peeves
-    fact1_description: Amphibians, rats, going through TSA security
+    fact1_description: Reptiles, rats, going through TSA security
     fact2: Idea of a perfect date
     fact2_description: Candlelit dinner followed by a romantic walk through Dimension X
     fact3: More of a good guy or bad boy?
@@ -131,7 +131,7 @@ characters:
     photo: Eric_Cartman1.jpg
     fact1: Favorite food
     fact1_description: I Love Cheesy Poofs.
-    fact2: Gym rat or couchc potato?
+    fact2: Gym rat or couch potato?
     fact2_description: "I don't need to work out: I'm not fat, I'm just Big Boned. You can see me on TV, looking all buff."
     fact3: Dominant or submissive?
     fact3_description: You will Respect My Authorit-ay!
@@ -207,7 +207,7 @@ characters:
     fact2_description: I’m well-educated. You can’t fool me. I listen to public radio!
     fact3: Best pick-up line
     fact3_description: Are you an Octopus? Because you octopi my thoughts.
-  - name: Archer
+  - name: Sterling Archer
     user_id: 1
     photo: archer1.jpg
     fact1: Song that best describes your life
