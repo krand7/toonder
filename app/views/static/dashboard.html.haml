@@ -32,7 +32,7 @@
       .col-sm-4.col-sm-offset-4.well
         %p.lead Looks like you voted on everyone...but come back later to check for new characters!
   - else
-    - Character.current.each do |character|
+    - Character.current.shuffle.each do |character|
       - unless character.votes.pluck(:user_id).include? current_user.id
         .row
           .col-md-4.col-md-offset-4.col-sm-6.col-sm-offset-3.well
