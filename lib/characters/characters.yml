@@ -3,7 +3,7 @@ characters:
   - name: Bugs Bunny
     slug: bugs-bunny
     user_id: 1
-    photo: bugs-bunny1.jpg
+    photo: bugs-bunny1.png
     fact1: Most frequently visited locale
     fact1_description: Albuquerque (pronounced “Alba-coy-key”)
     fact2: Career highlight
@@ -13,7 +13,7 @@ characters:
   - name: Daffy Duck
     slug: daffy-duck
     user_id: 1
-    photo: Daffy_duck-1.jpg
+    photo: Daffy_duck.png
     fact1: Least favorite reality show
     fact1_description: Duck Dynasty
     fact2: Dream job
@@ -23,7 +23,7 @@ characters:
   - name: Pepe Le Pew
     slug: pepe
     user_id: 1
-    photo: PepeLePew.jpg
+    photo: PepeLePew.png
     fact1: Best pick-up line
     fact1_description: "Permit me to introduce myself - I am your new lover."
     fact2: 2nd best pick-up line
@@ -33,7 +33,7 @@ characters:
   - name: Scooby Doo
     slug: scooby-doo
     user_id: 1
-    photo: scooby-doo1.jpg
+    photo: scooby-doo1.png
     fact1: Celebrity crush
     fact1_description: Lassie
     fact2: Worst pick-up line
@@ -43,7 +43,7 @@ characters:
   - name: Shaggy Rogers
     slug: shaggy
     user_id: 1
-    photo: Shaggy.gif
+    photo: Shaggy.png
     fact1: Favortie radio DJ
     fact1_description: Casey Kasem
     fact2: Favorite ice cream flavor
@@ -53,7 +53,7 @@ characters:
   - name: Velma Dinkley
     slug: velma
     user_id: 1
-    photo: velma1.jpg
+    photo: velma1.png
     fact1: Pet peeve
     fact1_description: Jinkies, I’m always losing my glasses.
     fact2: Biggest turn-off
@@ -63,7 +63,7 @@ characters:
   - name: Optimus Prime
     slug: optimus-prime
     user_id: 1
-    photo: optimus-prime1.jpg
+    photo: optimus-prime1.png
     fact1: Favorite books
     fact1_description: I, Robot; Zen and the Art of Motorcycle Maintenance
     fact2: Ideal date location
@@ -73,7 +73,7 @@ characters:
   - name: Megatron
     slug: megatron
     user_id: 1
-    photo: Megatron1.jpg
+    photo: Megatron1.png
     fact1: Favorite books
     fact1_description: The Art of War; 50 Shades of Grey
     fact2: Most proud of
@@ -83,17 +83,17 @@ characters:
   - name: Bumblebee
     slug: bumblebee
     user_id: 1
-    photo: BumbleBee1.jpg
+    photo: BumbleBee1.png
     fact1: Turn-ons
     fact1_description: The color yellow, the smell of gasoline, radio
     fact2: Turn-offs
     fact2_description: Decepticons, potholes, speed bumps
     fact3: Best pick-up line
     fact3_description: If you were a transformer, you’d be a Hot-o-bot and you’d be called Optimus Fine!
-  - name: Michaelangelo
+  - name: Michelangelo
     slug: michaelangelo
     user_id: 1
-    photo: Michaelangelo1.gif
+    photo: Michelangelo1.png
     fact1: Hobbies
     fact1_description: Skateboarding, surfing, being a party dude, nunchucking Foot Soldiers
     fact2: Idea of a perfect date
@@ -123,17 +123,17 @@ characters:
   - name: Pam Poovey
     slug: pam-poovey
     user_id: 1
-    photo: Pam1.jpg
+    photo: Pam1.png
     fact1: Favorite food
     fact1_description: Pretty much everything
     fact2: Biggest turn-on
     fact2_description: Pretty much everything. Sploosh.
     fact3: Self summary
     fact3_description: I’m a desirable, full-bodied woman… and I have so much love to give.
-  - name: Mallory Archer
+  - name: Malory Archer
     slug: mallory-archer
     user_id: 1
-    photo: Mallory1.jpg
+    photo: Malory2.png
     fact1: Perfect man
     fact1_description: A director of an espionage services or a drummer
     fact2: 3rd biggest fear
@@ -143,7 +143,7 @@ characters:
   - name: Eric Cartman
     slug: cartman
     user_id: 1
-    photo: Eric_Cartman1.jpg
+    photo: cartman2.png
     fact1: Favorite food
     fact1_description: I Love Cheesy Poofs.
     fact2: Gym rat or couch potato?
@@ -183,7 +183,7 @@ characters:
   - name: Chuckie Finster
     slug: chuckie
     user_id: 1
-    photo: Chuckie1.jpg
+    photo: Chuckie1.png
     fact1: Biggest rival
     fact1_description: Angelica’s cat, Fluffy.
     fact2: Playing on your iPod
@@ -193,7 +193,7 @@ characters:
   - name: Angelica Pickles
     slug: angelica
     user_id: 1
-    photo: Angelica1.jpg
+    photo: Angelica1.png
     fact1: Best friend
     fact1_description: Cynthia, my doll.
     fact2: Biggest perk of being a bully
@@ -203,7 +203,7 @@ characters:
   - name: SpongeBob SquarePants
     slug: spongebob
     user_id: 1
-    photo: SPONGEBOB1.jpg
+    photo: SPONGEBOB1.png
     fact1: Favorite pet
     fact1_description: Gary the Snail
     fact2: Best joke I know
@@ -223,7 +223,7 @@ characters:
   - name: Squidward Tentacles
     slug: squidward
     user_id: 1
-    photo: Squidward1.gif
+    photo: Squidward1.png
     fact1: Favorite movie
     fact1_description: 20,000 Leagues Under the Sea (although the book is better)
     fact2: Best quality
@@ -233,7 +233,7 @@ characters:
   - name: Sterling Archer
     slug: archer
     user_id: 1
-    photo: archer1.jpg
+    photo: archer1.png
     fact1: Song that best describes your life
     fact1_description: Danger Zone by Kenny Loggins
     fact2: Favorite beverage
