@@ -39,6 +39,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# Use Figaro for centralized application config
+gem 'figaro'
+
 gem 'bootstrap-sass'
 # autoprefixer-rails 5.0.0 breaks, locking autoprefixer-rails to 4.0.2.2 for the time being
 gem 'autoprefixer-rails', '4.0.2.2'
