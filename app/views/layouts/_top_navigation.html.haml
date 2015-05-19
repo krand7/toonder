@@ -1,5 +1,5 @@
 / Static navbar
-%nav.navbar.navbar-default.navbar-static-top
+%nav.navbar.navbar-default.navbar-static-top{ class: "#{(current_user and current_user.rueschman?) ? 'rueschman' : 'gray' }" }
   .container
     .navbar-header
       %button.navbar-toggle.collapsed{"aria-controls" => "navbar", "aria-expanded" => "false", "data-target" => "#navbar", "data-toggle" => "collapse", :type => "button"}

@@ -1,7 +1,16 @@
-html, body {
+body.hearts {
   background-image: asset-url("heart-background.jpg");
   background-repeat: repeat;
   background-position: center;
+}
+
+body.rueschman {
+  background-color: #ffa400;
+}
+
+nav.rueschman {
+  background-color: #5999de;
+  color: white;
 }
 
 .flex {
