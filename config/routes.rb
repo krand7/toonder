@@ -1,6 +1,11 @@
 Rails.application.routes.draw do
 
-  resources :characters
+  resources :characters do
+    collection do
+      get :results
+    end
+  end
+
   devise_for :users
   scope module: 'static' do
     get :home

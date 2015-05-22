@@ -7,4 +7,5 @@ class StaticController < ApplicationController
   def dashboard
     redirect_to :home if !current_user
   end
+
 end

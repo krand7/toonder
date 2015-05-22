@@ -3,6 +3,10 @@ class CharactersController < ApplicationController
   before_action :verify_is_admin
   before_action :set_character, only: [:show, :edit, :update, :destroy]
 
+  # Results
+  def results
+  end
+
   # GET /characters
   # GET /characters.json
   def index

@@ -1,0 +1,146 @@
+.well
+  %h1.toonder-red
+    Looney Tunes vs. Scooby Doo
+  .row
+    .col-sm-3
+      .retro1= render 'display', img: 'bugs-bunny1.png'
+    .col-sm-6
+      %p#show.btn.btn-primary{ 'data-target' => 'retro1' } Who's hotter?
+      #retro1.hidden
+        = render 'display', img: 'bugs-bunny1.png'
+    .col-sm-3
+      .retro1= render 'display', img: 'scooby-doo1.png'
+  .row
+    .col-sm-3
+      .retro2= render 'display', img:  'Daffy_duck.png'
+    .col-sm-6
+      %p#show.btn.btn-primary{ 'data-target' => 'retro2' } Who's hotter?
+      #retro2.hidden
+        = render 'display', img:  'Daffy_duck.png'
+    .col-sm-3
+      .retro2= render 'display', img: 'Shaggy.png'
+  .row
+    .col-sm-3
+      .retro3= render 'display', img: 'PepeLePew.png'
+    .col-sm-6
+      %p#show.btn.btn-primary{ 'data-target' => 'retro3' } Who's hotter?
+      #retro3.hidden
+        = render 'display', img: 'PepeLePew.png'
+    .col-sm-3
+      .retro3= render 'display', img: 'velma1.png'
+
+- 5.times do
+  %br
+
+.well
+  %h1.toonder-red
+    Transformers vs TMNT
+  .row
+    .col-sm-3
+      .super1= render 'display', img: 'optimus-prime1.png'
+    .col-sm-6
+      %p#show.btn.btn-primary{ 'data-target' => 'super1' } Who's hotter?
+      #super1.hidden
+        = render 'display', img: 'Michelangelo1.png'
+    .col-sm-3
+      .super1= render 'display', img: 'Michelangelo1.png'
+  .row
+    .col-sm-3
+      .super2= render 'display', img: 'Megatron1.png'
+    .col-sm-6
+      %p#show.btn.btn-primary{ 'data-target' => 'super2' } Who's hotter?
+      #super2.hidden= render 'display', img: 'Shredder1.png'
+    .col-sm-3
+      .super2= render 'display', img: 'Shredder1.png'
+  .row
+    .col-sm-3
+      .super3= render 'display', img: 'BumbleBee1.png'
+    .col-sm-6
+      %p#show.btn.btn-primary{ 'data-target' => 'super3' } Who's hotter?
+      #super3.hidden= render 'display', img: 'Splinter1.png'
+    .col-sm-3
+      .super3= render 'display', img: 'Splinter1.png'
+
+- 5.times do
+  %br
+
+.well
+  %h1.toonder-red
+    Archer vs South Park
+  .row
+    .col-sm-3
+      .mature1= render 'display', img: 'Pam1.png'
+    .col-sm-6
+      %p#show.btn.btn-primary{ 'data-target' => 'mature1' } Who's hotter?
+      #mature1.hidden= render 'display', img: 'Pam1.png'
+    .col-sm-3
+      .mature1= render 'display', img: 'cartman2.png'
+  .row
+    .col-sm-3
+      .mature2= render 'display', img: 'Malory2.png'
+    .col-sm-6
+      %p#show.btn.btn-primary{ 'data-target' => 'mature2' } Who's hotter?
+      #mature2.hidden= render 'display', img: 'Malory2.png'
+    .col-sm-3
+      .mature2= render 'display', img: 'ButtersStotch1.png'
+  .row
+    .col-sm-3
+      .mature3= render 'display', img: 'archer1.png'
+    .col-sm-6
+      %p#show.btn.btn-primary{ 'data-target' => 'mature3' } Who's hotter?
+      #mature3.hidden= render 'display', img: 'archer1.png'
+    .col-sm-3
+      .mature3= render 'display', img: 'ChefSouthPark1.png'
+
+
+- 5.times do
+  %br
+
+.well
+  %h1.toonder-red
+    Rugrats vs Spongbob Squarepants
+  .row
+    .col-sm-3
+      .little1= render 'display', img: 'tommypickles1.png'
+    .col-sm-6
+      %p#show.btn.btn-primary{ 'data-target' => 'little1' } Who's hotter?
+      #little1.hidden= render 'display', img: 'tommypickles1.png'
+    .col-sm-3
+      .little1= render 'display', img: 'SPONGEBOB1.png'
+  .row
+    .col-sm-3
+      .little2= render 'display', img: 'Chuckie1.png'
+    .col-sm-6
+      %p#show.btn.btn-primary{ 'data-target' => 'little2' } Who's hotter?
+      #little2.hidden= render 'display', img: 'Chuckie1.png'
+    .col-sm-3
+      .little2= render 'display', img: 'Patrick_Star1.png'
+  .row
+    .col-sm-3
+      .little3= render 'display', img: 'Angelica1.png'
+    .col-sm-6
+      %p#show.btn.btn-primary{ 'data-target' => 'little3' } Who's hotter?
+      #little3.hidden= render 'display', img: 'Angelica1.png'
+    .col-sm-3
+      .little3= render 'display', img: 'Squidward1.png'
+
+%p#show-hottest.btn.btn-success Meet TV's HOTTEST cartoons
+#hottest.hidden
+  .well
+    .row
+      .col-sm-4.centered
+        = render 'display', img: 'archer1.png'
+      .col-sm-4.centered
+        = render 'display', img: 'bugs-bunny1.png'
+      .col-sm-4.centered
+        = render 'display', img: 'Pam1.png'
+
+%p#show-nottest.btn.btn-danger Meet TV's NOTtest cartoons
+#nottest.hidden
+  .well
+    .row
+      .col-sm-4.col-sm-offset-4
+        = image_tag 'SPONGEBOB1.png', class: 'img-responsive'
+
+- 5.times do
+  %br
